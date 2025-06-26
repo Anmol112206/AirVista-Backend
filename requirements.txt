@@ -1,0 +1,7 @@
+firebase-admin
+google-cloud-firestore
+requests
+flask
+Flask-Cors
+python-dotenv
+mailjet-rest

@@ -1,0 +1,10 @@
+services:
+  - type: background
+    name: aqi-notifier
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: GOOGLE_APPLICATION_CREDENTIALS
+        value: firebase_key.json
+    schedule: "@hourly"
